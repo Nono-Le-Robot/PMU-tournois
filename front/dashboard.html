@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main">
+        <div id="info_coin">
+            <a href="">BTC/USDT</a>
+            <a href="">ETH/USDT</a>
+            <a href="">BNB/USDT</a>
+            <a href="">SOL/USDT</a>
+            <a href="">DOGE/USDT</a>
+            <a href="">1000SHIB/USDT</a>
+            <a href="">GLTO/USDT</a>
+        </div>
+        <div id="user_trading_interface">
+            <p>Levier (x1):</p>
+            <input type="range" name="levier" id="leverage">
+            <div id="div_btn">
+                <input id="long_btn" type="button" value="LONG">
+                <input id="short_btn" type="button" value="SHORT">
+            </div>
+        </div>
+
+        <div id="open_trade">
+            <div id="trade1">
+                <p>#1</p>
+                <p>BTC/USDT</p>
+                <p>leverage : x7</p>
+                <p>market price : 21 441.22</p>
+                <p>size trade : 58.18</p>
+                <p>entry price : 22 480.39 $</p>
+                <p>side : <span id="side_trade" style="color: red;">Short</span></p>
+                <p>P/L : <span style="color:rgb(67, 255, 67);">+ 7.42$</span></p>
+                <p>liquidation price : <span style="color:rgb(255, 214, 30);">34 420 $</span></p>
+            </div>
+            <div id="trade2">
+                <p>#2</p>
+                <p>ETH/USDT</p>
+                <p>leverage : x12</p>
+                <p>market price : 1244.14 $</p>
+                <p>size trade : 114.22 $</p>
+                <p>entry price : 1420.44 $</p>
+                <p>side : <span id="side_trade" style="color: red;">Short</span></p>
+                <p>P/L : <span style="color:rgb(67, 255, 67);">+ 2.33$</span></p>
+                <p>liquidation price : <span style="color:rgb(255, 214, 30);">1 513.84 $</span></p>
+            </div>
+            <div id="trade3">
+                <p>#3</p>
+                <p>GLTO/USDT</p>
+                <p>leverage : x125</p>
+                <p>market price : 0.00024 $</p>
+                <p>size trade : 11 415.22 $</p>
+                <p>entry price : 880.44 $</p>
+                <p>side : <span id="side_trade" style="color: rgb(59, 254, 49);">Long</span></p>
+                <p>P/L : <span style="color:rgb(255, 67, 67);">-?? ???? $</span></p>
+                <p>liquidation price : <span style="color:rgb(255, 214, 30);">REKT</span></p>
+            </div>
+        </div>
+    </section>
+</html>
