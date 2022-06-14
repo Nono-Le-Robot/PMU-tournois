@@ -19,12 +19,17 @@
             <a href="">GLTO/USDT</a>
         </div>
         <div id="user_trading_interface">
-            <p>Levier (x1):</p>
-            <input type="range" name="levier" id="leverage">
-            <div id="div_btn">
-                <input id="long_btn" type="button" value="LONG">
-                <input id="short_btn" type="button" value="SHORT">
-            </div>
+            <p class="upchar" id="solde_value"></p>
+            <p class="upchar" id="leverage_value">Levier (x1)</p>
+            <input step="1" type="range" name="levier" id="leverage" min="1" max="125" value="1">
+            <p class="upchar">Size :</p>
+            <input step="1" type="range" name="size" id="size" min="0" max="100" value="0">
+        <p class="upchar" id="size_value">valeur : 0.00 USDT</p>
+        <div id="div_btn">
+            <input id="long_btn" type="button" value="LONG">
+            <input id="short_btn" type="button" value="SHORT">
+        </div>
+        <br><br>
         </div>
 
         <div id="open_trade">
@@ -63,4 +68,6 @@
             </div>
         </div>
     </section>
+    <script src="./js/dashboard.js"></script>
+    </body>
 </html>
