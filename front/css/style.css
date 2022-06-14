@@ -1,0 +1,9 @@
+#user_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#send_btn{
+    margin-top: 40px;
+}
