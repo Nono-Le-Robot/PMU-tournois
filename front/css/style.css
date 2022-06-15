@@ -18,10 +18,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 400px;
+    height: 600px;
     border: 4px solid black;
     border-radius: 25px;
-    width: 400px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -45,4 +45,15 @@
 }
 .upchar{
     font-size: 25px;
+}
+#trade1,#trade2,#trade3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+#open_trade{
+    margin-top:30px;
 }
