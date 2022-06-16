@@ -1,3 +1,6 @@
+*{
+    font-size: 25px!;
+}
 #user_form{
     display: flex;
     flex-direction: column;
@@ -42,9 +45,6 @@
 #leverage{
     width: 300px;
 
-}
-.upchar{
-    font-size: 25px;
 }
 #trade1,#trade2,#trade3{
     display: flex;
