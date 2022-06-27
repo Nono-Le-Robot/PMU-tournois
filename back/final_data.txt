@@ -1,0 +1,1 @@
+[{"user":"NonoLeRobot","userid":"78A3DE9C1E5D63BAD5DBFD6D0DE922DD","pnl":"-10.75%"},{"user":"Soulier","userid":"19CE4FDDF3A270602B07AF67C20B23FD","pnl":"13.87%"},{"user":"FattyNatsu","userid":"1C56C5A983CB10596ACA8DEC9CC17B95","pnl":"-22.99%"}]

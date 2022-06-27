@@ -3,3 +3,4 @@ echo data request ...
 :toto
 node data-request
 PAUSE
+goto toto

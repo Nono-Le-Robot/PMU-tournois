@@ -14,16 +14,16 @@ send_btn.addEventListener("click", () =>{
                     "user": user_name.value,
                     "userid" : u_id.value,
                     "pnl" : 0
-                
                 }), 
                 headers: {
                     "Content-Type": "application/json"
                 }
             }).then(response => response.json())
             .then(data => {
-                alert("Enregistrement effectué !");
+              
 
         })
+        alert("Enregistrement effectué !");
 })
 
 

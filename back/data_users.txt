@@ -1,0 +1,1 @@
+[{"_id":"62b46dd42565670090dbb0fd","user":"FattyNatsu","userid":"1C56C5A983CB10596ACA8DEC9CC17B95","pnl":-22,"__v":0},{"_id":"62b46dd42565670090dbb0fe","user":"Soulier","userid":"19CE4FDDF3A270602B07AF67C20B23FD","pnl":13,"__v":0}]

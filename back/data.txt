@@ -1,1 +1,0 @@
-[{"user":"--","userid":"1B59E90653624F87DE2BC944F9FA6C2D","pnl":0},{"user":"NonoLeRobot","userid":"78A3DE9C1E5D63BAD5DBFD6D0DE922DD","pnl":609}]

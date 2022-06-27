@@ -2,8 +2,8 @@ const mongoose = require("mongoose")
 const PostsModel = mongoose.model(
     "node-api",
     {
-       "user": {type : String, required: true},
-       "userid": {type : String, required: true},
+       "user": {type : String},
+       "userid": {type : String},
        "pnl": {type : Number},
     },
     "posts"
